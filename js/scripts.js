@@ -12,3 +12,27 @@ $(function() {
         }
     });
 });
+
+
+// $(function() {
+//     $('#reserveButton').click(function() {
+//         const modalEl = $('#reserveModal');
+//         // console.log('modalEl', modalEl)
+//         modalEl.modal('show');
+//         // console.log("reserveButton");
+//     });
+// });
+
+$(function() {
+
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show");
+    })
+
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+    })
+
+});
+
+
